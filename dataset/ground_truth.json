@@ -1,0 +1,104 @@
+{
+  "seed": 20261109,
+  "note": "All documents are fully synthetic. No real PII is used.",
+  "genuine_packet": {
+    "expected_findings": 0,
+    "profile": {
+      "name": "Rohan Mehta",
+      "dob": "14-03-1992",
+      "address": "48 Camac Street, Kolkata, West Bengal 700017",
+      "pan": "AKMPM4821Q",
+      "id_issue_date": "22-07-2015",
+      "employer": "Nimbus Analytics Pvt Ltd",
+      "monthly_net_income": 86000,
+      "account_number": "50100 2234 7781",
+      "statement_period": "01-08-2026 to 31-08-2026",
+      "opening_balance": 142300,
+      "salary_credit": 86000,
+      "application_date": "05-09-2026",
+      "loan_amount": 1500000
+    }
+  },
+  "manipulated_packet": {
+    "planted_anomalies": [
+      {
+        "id": "A1_dob_mismatch",
+        "class": "cross_document",
+        "detail": "DOB on PAN ID (14-03-1990) conflicts with application form (14-03-1992).",
+        "documents": [
+          "id",
+          "application"
+        ],
+        "confidence_expectation": "high"
+      },
+      {
+        "id": "A2_income_inflation",
+        "class": "cross_document",
+        "detail": "Declared monthly income on application (INR 140,000) exceeds salary-slip net pay and bank salary credit (INR 86,000).",
+        "documents": [
+          "application",
+          "salary_slip",
+          "bank_statement"
+        ],
+        "confidence_expectation": "high"
+      },
+      {
+        "id": "A3_balance_arithmetic",
+        "class": "structural",
+        "detail": "Printed closing balance does not equal opening balance plus the sum of ledger transactions.",
+        "documents": [
+          "bank_statement"
+        ],
+        "confidence_expectation": "high"
+      },
+      {
+        "id": "A4_address_mismatch",
+        "class": "cross_document",
+        "detail": "Address on utility bill (12 Park Street) conflicts with application address (48 Camac Street).",
+        "documents": [
+          "address_proof",
+          "application"
+        ],
+        "confidence_expectation": "high"
+      },
+      {
+        "id": "A5_pdf_incremental",
+        "class": "pdf_forensic",
+        "detail": "Bank statement PDF contains an incremental-update revision after signing, and creator/producer disagree.",
+        "documents": [
+          "bank_statement"
+        ],
+        "confidence_expectation": "high"
+      },
+      {
+        "id": "A6_photo_splice",
+        "class": "visual_forensic",
+        "detail": "ID photo region shows duplicated (copy-move) texture and EXIF Software tag indicates photo-editing software.",
+        "documents": [
+          "id"
+        ],
+        "confidence_expectation": "medium"
+      },
+      {
+        "id": "A7_employer_mismatch",
+        "class": "cross_document",
+        "detail": "Employer on salary slip (Nimbus Data Labs LLP) differs from application (Nimbus Analytics Pvt Ltd).",
+        "documents": [
+          "salary_slip",
+          "application"
+        ],
+        "confidence_expectation": "medium"
+      },
+      {
+        "id": "A8_date_logic",
+        "class": "cross_document",
+        "detail": "PAN issue date (22-07-2027) is after the application date (05-09-2026), which is impossible.",
+        "documents": [
+          "id",
+          "application"
+        ],
+        "confidence_expectation": "high"
+      }
+    ]
+  }
+}
