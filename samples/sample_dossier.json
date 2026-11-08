@@ -1,0 +1,809 @@
+{
+  "packet_dir": "dataset\\manipulated",
+  "documents": {
+    "application": {
+      "doc_type": "loan_application",
+      "display_name": "Loan Application Form",
+      "original_path": "dataset\\manipulated\\01_loan_application.pdf",
+      "page_image": "dataset\\manipulated\\01_loan_application.png"
+    },
+    "id": {
+      "doc_type": "pan_id",
+      "display_name": "PAN Identity Card",
+      "original_path": "dataset\\manipulated\\02_pan_id.jpg",
+      "page_image": "dataset\\manipulated\\02_pan_id.jpg"
+    },
+    "address_proof": {
+      "doc_type": "address_proof",
+      "display_name": "Electricity Bill (Address Proof)",
+      "original_path": "dataset\\manipulated\\03_address_proof.pdf",
+      "page_image": "dataset\\manipulated\\03_address_proof.png"
+    },
+    "salary_slip": {
+      "doc_type": "salary_slip",
+      "display_name": "Salary Slip",
+      "original_path": "dataset\\manipulated\\04_salary_slip.pdf",
+      "page_image": "dataset\\manipulated\\04_salary_slip.png"
+    },
+    "bank_statement": {
+      "doc_type": "bank_statement",
+      "display_name": "Bank Statement",
+      "original_path": "dataset\\manipulated\\05_bank_statement.pdf",
+      "page_image": "dataset\\manipulated\\05_bank_statement.png"
+    }
+  },
+  "fields": {
+    "application": {
+      "full_name": {
+        "doc_id": "application",
+        "doc_type": "loan_application",
+        "name": "full_name",
+        "label": "Full Name",
+        "value": "Rohan Mehta",
+        "raw_value": "Rohan Mehta",
+        "confidence": 0.96,
+        "bbox": [
+          445,
+          189,
+          154,
+          19
+        ],
+        "page_image": "dataset\\manipulated\\01_loan_application.png"
+      },
+      "date_of_birth": {
+        "doc_id": "application",
+        "doc_type": "loan_application",
+        "name": "date_of_birth",
+        "label": "Date of Birth",
+        "value": "14-03-1992",
+        "raw_value": "14-03-1992",
+        "confidence": 0.96,
+        "bbox": [
+          445,
+          254,
+          125,
+          19
+        ],
+        "page_image": "dataset\\manipulated\\01_loan_application.png"
+      },
+      "pan": {
+        "doc_id": "application",
+        "doc_type": "loan_application",
+        "name": "pan",
+        "label": "PAN Number",
+        "value": "AKMPM4821Q",
+        "raw_value": "AKMPM4821Q",
+        "confidence": 0.63,
+        "bbox": [
+          444,
+          318,
+          168,
+          20
+        ],
+        "page_image": "dataset\\manipulated\\01_loan_application.png"
+      },
+      "address": {
+        "doc_id": "application",
+        "doc_type": "loan_application",
+        "name": "address",
+        "label": "Residential Address",
+        "value": "48 Camac Street, Kolkata, West Bengal 700017",
+        "raw_value": "48 Camac Street, Kolkata, West Bengal 700017",
+        "confidence": 0.92,
+        "bbox": [
+          444,
+          383,
+          551,
+          24
+        ],
+        "page_image": "dataset\\manipulated\\01_loan_application.png"
+      },
+      "employer": {
+        "doc_id": "application",
+        "doc_type": "loan_application",
+        "name": "employer",
+        "label": "Employer Name",
+        "value": "Nimbus Analytics Pvt Ltd",
+        "raw_value": "Nimbus Analytics Pvt Ltd",
+        "confidence": 0.95,
+        "bbox": [
+          445,
+          449,
+          298,
+          23
+        ],
+        "page_image": "dataset\\manipulated\\01_loan_application.png"
+      },
+      "declared_monthly_income": {
+        "doc_id": "application",
+        "doc_type": "loan_application",
+        "name": "declared_monthly_income",
+        "label": "Declared Monthly Income",
+        "value": "140000",
+        "raw_value": "INR 140,000",
+        "confidence": 0.96,
+        "bbox": [
+          445,
+          513,
+          137,
+          22
+        ],
+        "page_image": "dataset\\manipulated\\01_loan_application.png"
+      },
+      "account_number": {
+        "doc_id": "application",
+        "doc_type": "loan_application",
+        "name": "account_number",
+        "label": "Bank Account Number",
+        "value": "50100 2234 7781",
+        "raw_value": "50100 2234 7781",
+        "confidence": 0.96,
+        "bbox": [
+          444,
+          578,
+          189,
+          19
+        ],
+        "page_image": "dataset\\manipulated\\01_loan_application.png"
+      },
+      "loan_amount": {
+        "doc_id": "application",
+        "doc_type": "loan_application",
+        "name": "loan_amount",
+        "label": "Loan Amount Requested",
+        "value": "1500000",
+        "raw_value": "INR 1,500,000",
+        "confidence": 0.96,
+        "bbox": [
+          445,
+          643,
+          158,
+          22
+        ],
+        "page_image": "dataset\\manipulated\\01_loan_application.png"
+      },
+      "application_date": {
+        "doc_id": "application",
+        "doc_type": "loan_application",
+        "name": "application_date",
+        "label": "Application Date",
+        "value": "05-09-2026",
+        "raw_value": "05-09-2026",
+        "confidence": 0.96,
+        "bbox": [
+          444,
+          708,
+          126,
+          19
+        ],
+        "page_image": "dataset\\manipulated\\01_loan_application.png"
+      }
+    },
+    "id": {
+      "full_name": {
+        "doc_id": "id",
+        "doc_type": "pan_id",
+        "name": "full_name",
+        "label": "Name",
+        "value": "Rohan Mehta",
+        "raw_value": "Rohan Mehta",
+        "confidence": 0.95,
+        "bbox": [
+          201,
+          123,
+          137,
+          16
+        ],
+        "page_image": "dataset\\manipulated\\02_pan_id.jpg"
+      },
+      "date_of_birth": {
+        "doc_id": "id",
+        "doc_type": "pan_id",
+        "name": "date_of_birth",
+        "label": "Date of Birth",
+        "value": "14-03-1990",
+        "raw_value": "14-03-1990",
+        "confidence": 0.96,
+        "bbox": [
+          202,
+          185,
+          109,
+          16
+        ],
+        "page_image": "dataset\\manipulated\\02_pan_id.jpg"
+      },
+      "pan": {
+        "doc_id": "id",
+        "doc_type": "pan_id",
+        "name": "pan",
+        "label": "PAN",
+        "value": "AKMPM4821Q",
+        "raw_value": "AKMPM4821Q",
+        "confidence": 0.88,
+        "bbox": [
+          200,
+          247,
+          149,
+          17
+        ],
+        "page_image": "dataset\\manipulated\\02_pan_id.jpg"
+      },
+      "id_issue_date": {
+        "doc_id": "id",
+        "doc_type": "pan_id",
+        "name": "id_issue_date",
+        "label": "Date of Issue",
+        "value": "22-07-2027",
+        "raw_value": "22-07-2027",
+        "confidence": 0.96,
+        "bbox": [
+          200,
+          309,
+          112,
+          16
+        ],
+        "page_image": "dataset\\manipulated\\02_pan_id.jpg"
+      }
+    },
+    "address_proof": {
+      "full_name": {
+        "doc_id": "address_proof",
+        "doc_type": "address_proof",
+        "name": "full_name",
+        "label": "Consumer Name",
+        "value": "Rohan Mehta",
+        "raw_value": "Rohan Mehta",
+        "confidence": 0.96,
+        "bbox": [
+          445,
+          189,
+          154,
+          19
+        ],
+        "page_image": "dataset\\manipulated\\03_address_proof.png"
+      },
+      "address": {
+        "doc_id": "address_proof",
+        "doc_type": "address_proof",
+        "name": "address",
+        "label": "Supply Address",
+        "value": "12 Park Street, Kolkata, West Bengal 700016",
+        "raw_value": "12 Park Street, Kolkata, West Bengal 700016",
+        "confidence": 0.96,
+        "bbox": [
+          445,
+          259,
+          522,
+          24
+        ],
+        "page_image": "dataset\\manipulated\\03_address_proof.png"
+      },
+      "bill_date": {
+        "doc_id": "address_proof",
+        "doc_type": "address_proof",
+        "name": "bill_date",
+        "label": "Bill Date",
+        "value": "02-09-2026",
+        "raw_value": "02-09-2026",
+        "confidence": 0.96,
+        "bbox": [
+          444,
+          472,
+          126,
+          19
+        ],
+        "page_image": "dataset\\manipulated\\03_address_proof.png"
+      }
+    },
+    "salary_slip": {
+      "full_name": {
+        "doc_id": "salary_slip",
+        "doc_type": "salary_slip",
+        "name": "full_name",
+        "label": "Employee Name",
+        "value": "Rohan Mehta",
+        "raw_value": "Rohan Mehta",
+        "confidence": 0.96,
+        "bbox": [
+          445,
+          212,
+          154,
+          19
+        ],
+        "page_image": "dataset\\manipulated\\04_salary_slip.png"
+      },
+      "pan": {
+        "doc_id": "salary_slip",
+        "doc_type": "salary_slip",
+        "name": "pan",
+        "label": "PAN",
+        "value": "AKMPM4821Q",
+        "raw_value": "AKMPM4821Q",
+        "confidence": 0.83,
+        "bbox": [
+          444,
+          424,
+          168,
+          20
+        ],
+        "page_image": "dataset\\manipulated\\04_salary_slip.png"
+      },
+      "net_pay": {
+        "doc_id": "salary_slip",
+        "doc_type": "salary_slip",
+        "name": "net_pay",
+        "label": "Net Pay",
+        "value": "86000",
+        "raw_value": "INR 86,000",
+        "confidence": 0.96,
+        "bbox": [
+          445,
+          638,
+          123,
+          22
+        ],
+        "page_image": "dataset\\manipulated\\04_salary_slip.png"
+      },
+      "gross_earnings": {
+        "doc_id": "salary_slip",
+        "doc_type": "salary_slip",
+        "name": "gross_earnings",
+        "label": "Gross Earnings",
+        "value": "104000",
+        "raw_value": "INR 104,000",
+        "confidence": 0.95,
+        "bbox": [
+          445,
+          496,
+          137,
+          22
+        ],
+        "page_image": "dataset\\manipulated\\04_salary_slip.png"
+      },
+      "pay_date": {
+        "doc_id": "salary_slip",
+        "doc_type": "salary_slip",
+        "name": "pay_date",
+        "label": "Pay Date",
+        "value": "31-08-2026",
+        "raw_value": "31-08-2026",
+        "confidence": 0.96,
+        "bbox": [
+          444,
+          708,
+          126,
+          19
+        ],
+        "page_image": "dataset\\manipulated\\04_salary_slip.png"
+      },
+      "employer": {
+        "doc_id": "salary_slip",
+        "doc_type": "salary_slip",
+        "name": "employer",
+        "label": "(title)",
+        "value": "Nimbus Data Labs LLP",
+        "raw_value": "Nimbus Data Labs LLP",
+        "confidence": 0.95,
+        "bbox": [
+          120,
+          76,
+          360,
+          25
+        ],
+        "page_image": "dataset\\manipulated\\04_salary_slip.png"
+      }
+    },
+    "bank_statement": {
+      "full_name": {
+        "doc_id": "bank_statement",
+        "doc_type": "bank_statement",
+        "name": "full_name",
+        "label": "Account Holder",
+        "value": "Rohan Mehta",
+        "raw_value": "Rohan Mehta",
+        "confidence": 0.96,
+        "bbox": [
+          445,
+          119,
+          141,
+          18
+        ],
+        "page_image": "dataset\\manipulated\\05_bank_statement.png"
+      },
+      "account_number": {
+        "doc_id": "bank_statement",
+        "doc_type": "bank_statement",
+        "name": "account_number",
+        "label": "Account Number",
+        "value": "50100 2234 7781",
+        "raw_value": "50100 2234 7781",
+        "confidence": 0.96,
+        "bbox": [
+          444,
+          154,
+          173,
+          18
+        ],
+        "page_image": "dataset\\manipulated\\05_bank_statement.png"
+      },
+      "statement_period": {
+        "doc_id": "bank_statement",
+        "doc_type": "bank_statement",
+        "name": "statement_period",
+        "label": "Statement Period",
+        "value": "01-08-2026 to 31-08-2026",
+        "raw_value": "01-08-2026 to 31-08-2026",
+        "confidence": 0.96,
+        "bbox": [
+          444,
+          190,
+          267,
+          18
+        ],
+        "page_image": "dataset\\manipulated\\05_bank_statement.png"
+      },
+      "closing_balance": {
+        "doc_id": "bank_statement",
+        "doc_type": "bank_statement",
+        "name": "closing_balance",
+        "label": "Closing Balance",
+        "value": "274960",
+        "raw_value": "274,960",
+        "confidence": 0.96,
+        "bbox": [
+          1005,
+          596,
+          88,
+          22
+        ],
+        "page_image": "dataset\\manipulated\\05_bank_statement.png"
+      }
+    }
+  },
+  "findings": [
+    {
+      "id": "XDOC-DATE_OF_BIRTH-1",
+      "title": "Date of Birth conflicts across documents",
+      "anomaly_class": "cross_document",
+      "severity": "critical",
+      "confidence_tier": "high",
+      "status": "observed_inconsistency",
+      "documents": [
+        "application",
+        "id"
+      ],
+      "explanation": "The date of birth does not match across the packet: \"14-03-1992\" on Loan Application Form; \"14-03-1990\" on PAN Identity Card. Values for the same applicant entity should be identical across all submitted documents.",
+      "evidence": [
+        {
+          "doc_id": "application",
+          "page_image": "dataset\\manipulated\\01_loan_application.png",
+          "bbox": [
+            445,
+            254,
+            125,
+            19
+          ],
+          "snippet": "14-03-1992",
+          "field_name": "date_of_birth"
+        },
+        {
+          "doc_id": "id",
+          "page_image": "dataset\\manipulated\\02_pan_id.jpg",
+          "bbox": [
+            202,
+            185,
+            109,
+            16
+          ],
+          "snippet": "14-03-1990",
+          "field_name": "date_of_birth"
+        }
+      ],
+      "recommended_action": "Verify the applicant's date of birth against an authoritative source."
+    },
+    {
+      "id": "DATE-LOGIC-1",
+      "title": "Identity document issued after the application date",
+      "anomaly_class": "cross_document",
+      "severity": "high",
+      "confidence_tier": "high",
+      "status": "observed_inconsistency",
+      "documents": [
+        "application",
+        "id"
+      ],
+      "explanation": "The PAN identity document shows an issue date of 22-07-2027, which is after the application date 05-09-2026. An identity proof cannot be issued after the application that relies on it.",
+      "evidence": [
+        {
+          "doc_id": "id",
+          "page_image": "dataset\\manipulated\\02_pan_id.jpg",
+          "bbox": [
+            200,
+            309,
+            112,
+            16
+          ],
+          "snippet": "22-07-2027",
+          "field_name": "id_issue_date"
+        },
+        {
+          "doc_id": "application",
+          "page_image": "dataset\\manipulated\\01_loan_application.png",
+          "bbox": [
+            444,
+            708,
+            126,
+            19
+          ],
+          "snippet": "05-09-2026",
+          "field_name": "application_date"
+        }
+      ],
+      "recommended_action": "Re-verify the identity document and its issue date."
+    },
+    {
+      "id": "FIN-INCOME-1",
+      "title": "Declared income is not supported by payroll or bank records",
+      "anomaly_class": "cross_document",
+      "severity": "high",
+      "confidence_tier": "high",
+      "status": "observed_inconsistency",
+      "documents": [
+        "application",
+        "bank_statement",
+        "salary_slip"
+      ],
+      "explanation": "The application declares a monthly income of INR 140,000, but corroborating documents show INR 86,000 (salary slip net pay); INR 86,000 (bank statement salary credit). Declared income materially exceeds the income evidenced by payroll and bank records.",
+      "evidence": [
+        {
+          "doc_id": "application",
+          "page_image": "dataset\\manipulated\\01_loan_application.png",
+          "bbox": [
+            445,
+            513,
+            137,
+            22
+          ],
+          "snippet": "Declared INR 140,000",
+          "field_name": "declared_monthly_income"
+        },
+        {
+          "doc_id": "salary_slip",
+          "page_image": "dataset\\manipulated\\04_salary_slip.png",
+          "bbox": [
+            445,
+            638,
+            123,
+            22
+          ],
+          "snippet": "Net pay INR 86,000",
+          "field_name": "net_pay"
+        }
+      ],
+      "recommended_action": "Confirm actual monthly income from payroll and bank credits before using the declared figure for loan eligibility."
+    },
+    {
+      "id": "PDF-FORENSIC-bank_statement",
+      "title": "Born-digital PDF shows post-authoring modification",
+      "anomaly_class": "pdf_forensic",
+      "severity": "high",
+      "confidence_tier": "high",
+      "status": "potential_manipulation",
+      "documents": [
+        "bank_statement"
+      ],
+      "explanation": "Structural analysis of the PDF indicates it was modified after it was first produced: the file contains 1 incremental-update revision(s) appended after the original was written; and the creator ('LedgerLens DemoForms 1.0') and producer ('iText 7.2.5') disagree, which happens when a file is re-saved by a different tool. This is deterministic file-structure evidence, not a visual guess. The content that changed between revisions has been localized on the page. A revision can be benign, so this is flagged for human review.",
+      "evidence": [
+        {
+          "doc_id": "bank_statement",
+          "page_image": "dataset\\manipulated\\05_bank_statement.png",
+          "bbox": [
+            834,
+            112,
+            66,
+            13
+          ],
+          "snippet": "Content added after the original revision",
+          "field_name": null
+        }
+      ],
+      "recommended_action": "Obtain the original unmodified PDF directly from the issuer."
+    },
+    {
+      "id": "STRUCT-BALANCE-1",
+      "title": "Bank statement closing balance does not reconcile",
+      "anomaly_class": "structural",
+      "severity": "high",
+      "confidence_tier": "high",
+      "status": "observed_inconsistency",
+      "documents": [
+        "bank_statement"
+      ],
+      "explanation": "The statement prints a closing balance of INR 274,960, but the opening balance plus the sum of the listed transactions comes to INR 179,960. The ledger does not add up, a strong indicator that the closing figure was altered (difference INR 95,000).",
+      "evidence": [
+        {
+          "doc_id": "bank_statement",
+          "page_image": "dataset\\manipulated\\05_bank_statement.png",
+          "bbox": [
+            1005,
+            596,
+            88,
+            22
+          ],
+          "snippet": "Printed closing INR 274,960",
+          "field_name": "closing_balance"
+        }
+      ],
+      "recommended_action": "Recompute the ledger from the transaction list and obtain a bank-certified statement."
+    },
+    {
+      "id": "XDOC-ADDRESS-2",
+      "title": "Address conflicts across documents",
+      "anomaly_class": "cross_document",
+      "severity": "high",
+      "confidence_tier": "high",
+      "status": "observed_inconsistency",
+      "documents": [
+        "address_proof",
+        "application"
+      ],
+      "explanation": "The address does not match across the packet: \"48 Camac Street, Kolkata, West Bengal 700017\" on Loan Application Form; \"12 Park Street, Kolkata, West Bengal 700016\" on Electricity Bill (Address Proof). Values for the same applicant entity should be identical across all submitted documents.",
+      "evidence": [
+        {
+          "doc_id": "application",
+          "page_image": "dataset\\manipulated\\01_loan_application.png",
+          "bbox": [
+            444,
+            383,
+            551,
+            24
+          ],
+          "snippet": "48 Camac Street, Kolkata, West Bengal 700017",
+          "field_name": "address"
+        },
+        {
+          "doc_id": "address_proof",
+          "page_image": "dataset\\manipulated\\03_address_proof.png",
+          "bbox": [
+            445,
+            259,
+            522,
+            24
+          ],
+          "snippet": "12 Park Street, Kolkata, West Bengal 700016",
+          "field_name": "address"
+        }
+      ],
+      "recommended_action": "Verify the applicant's address against an authoritative source."
+    },
+    {
+      "id": "VIS-EXIF-id",
+      "title": "Image metadata indicates photo-editing software",
+      "anomaly_class": "visual_forensic",
+      "severity": "medium",
+      "confidence_tier": "medium",
+      "status": "potential_manipulation",
+      "documents": [
+        "id"
+      ],
+      "explanation": "The image's EXIF metadata records editing software ('Adobe Photoshop 25.1 (Windows)'). Identity photos captured by a scanner or camera would not normally carry a photo-editor signature. This is a supporting signal, not proof.",
+      "evidence": [
+        {
+          "doc_id": "id",
+          "page_image": "dataset\\manipulated\\02_pan_id.jpg",
+          "bbox": null,
+          "snippet": "EXIF Software: Adobe Photoshop 25.1 (Windows)",
+          "field_name": null
+        }
+      ],
+      "recommended_action": "Request the original unedited photograph or a fresh capture."
+    },
+    {
+      "id": "XDOC-EMPLOYER-3",
+      "title": "Employer conflicts across documents",
+      "anomaly_class": "cross_document",
+      "severity": "medium",
+      "confidence_tier": "high",
+      "status": "observed_inconsistency",
+      "documents": [
+        "application",
+        "salary_slip"
+      ],
+      "explanation": "The employer does not match across the packet: \"Nimbus Analytics Pvt Ltd\" on Loan Application Form; \"Nimbus Data Labs LLP\" on Salary Slip. Values for the same applicant entity should be identical across all submitted documents.",
+      "evidence": [
+        {
+          "doc_id": "application",
+          "page_image": "dataset\\manipulated\\01_loan_application.png",
+          "bbox": [
+            445,
+            449,
+            298,
+            23
+          ],
+          "snippet": "Nimbus Analytics Pvt Ltd",
+          "field_name": "employer"
+        },
+        {
+          "doc_id": "salary_slip",
+          "page_image": "dataset\\manipulated\\04_salary_slip.png",
+          "bbox": [
+            120,
+            76,
+            360,
+            25
+          ],
+          "snippet": "Nimbus Data Labs LLP",
+          "field_name": "employer"
+        }
+      ],
+      "recommended_action": "Verify the applicant's employer against an authoritative source."
+    }
+  ],
+  "audit": [
+    {
+      "ts": "2026-11-09T05:11:31",
+      "stage": "ingest",
+      "message": "Discovered 5 documents in manipulated"
+    },
+    {
+      "ts": "2026-11-09T05:11:32",
+      "stage": "extract",
+      "message": "Loan Application Form: classified as loan_application, extracted 9 fields"
+    },
+    {
+      "ts": "2026-11-09T05:11:32",
+      "stage": "extract",
+      "message": "PAN Identity Card: classified as pan_id, extracted 4 fields"
+    },
+    {
+      "ts": "2026-11-09T05:11:33",
+      "stage": "extract",
+      "message": "Electricity Bill (Address Proof): classified as address_proof, extracted 3 fields"
+    },
+    {
+      "ts": "2026-11-09T05:11:33",
+      "stage": "extract",
+      "message": "Salary Slip: classified as salary_slip, extracted 6 fields"
+    },
+    {
+      "ts": "2026-11-09T05:11:34",
+      "stage": "extract",
+      "message": "Bank Statement: classified as bank_statement, extracted 4 fields"
+    },
+    {
+      "ts": "2026-11-09T05:11:34",
+      "stage": "correlate",
+      "message": "Evidence graph: 16 entity nodes, 17 correlation edges, 3 cross-document contradiction(s)"
+    },
+    {
+      "ts": "2026-11-09T05:11:34",
+      "stage": "check",
+      "message": "check_income_reconciliation: 1 finding(s)"
+    },
+    {
+      "ts": "2026-11-09T05:11:34",
+      "stage": "check",
+      "message": "check_date_logic: 1 finding(s)"
+    },
+    {
+      "ts": "2026-11-09T05:11:34",
+      "stage": "check",
+      "message": "check_statement_arithmetic: 1 finding(s)"
+    },
+    {
+      "ts": "2026-11-09T05:11:34",
+      "stage": "check",
+      "message": "check_pdf_forensics: 1 finding(s)"
+    },
+    {
+      "ts": "2026-11-09T05:11:34",
+      "stage": "check",
+      "message": "check_visual_forensics: 1 finding(s)"
+    },
+    {
+      "ts": "2026-11-09T05:11:34",
+      "stage": "rank",
+      "message": "Total findings: 8"
+    }
+  ]
+}
