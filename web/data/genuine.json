@@ -1,0 +1,467 @@
+{
+  "packet": "genuine",
+  "summary": {
+    "verdict": "NO ANOMALIES DETECTED",
+    "headline": "No findings.",
+    "recommendation": "No contextual, structural, PDF-structure or metadata anomalies were detected. This is not a guarantee of authenticity.",
+    "counts_by_severity": {},
+    "counts_by_class": {},
+    "observed": 0,
+    "potential": 0,
+    "needs_review": 0,
+    "areas_requiring_verification": []
+  },
+  "documents": {
+    "application": {
+      "id": "application",
+      "display_name": "Loan Application Form",
+      "doc_type": "loan_application",
+      "img": "img/application.png",
+      "w": 1241,
+      "h": 1754
+    },
+    "id": {
+      "id": "id",
+      "display_name": "PAN Identity Card",
+      "doc_type": "pan_id",
+      "img": "img/id.jpg",
+      "w": 640,
+      "h": 400
+    },
+    "address_proof": {
+      "id": "address_proof",
+      "display_name": "Electricity Bill (Address Proof)",
+      "doc_type": "address_proof",
+      "img": "img/address_proof.png",
+      "w": 1241,
+      "h": 1754
+    },
+    "salary_slip": {
+      "id": "salary_slip",
+      "display_name": "Salary Slip",
+      "doc_type": "salary_slip",
+      "img": "img/salary_slip.png",
+      "w": 1241,
+      "h": 1754
+    },
+    "bank_statement": {
+      "id": "bank_statement",
+      "display_name": "Bank Statement",
+      "doc_type": "bank_statement",
+      "img": "img/bank_statement.png",
+      "w": 1241,
+      "h": 1754
+    }
+  },
+  "fields": {
+    "application": {
+      "full_name": {
+        "value": "Rohan Mehta",
+        "confidence": 0.96,
+        "bbox": [
+          445,
+          189,
+          154,
+          19
+        ]
+      },
+      "date_of_birth": {
+        "value": "14-03-1992",
+        "confidence": 0.96,
+        "bbox": [
+          445,
+          254,
+          125,
+          19
+        ]
+      },
+      "pan": {
+        "value": "AKMPM4821Q",
+        "confidence": 0.63,
+        "bbox": [
+          444,
+          318,
+          168,
+          20
+        ]
+      },
+      "address": {
+        "value": "48 Camac Street, Kolkata, West Bengal 700017",
+        "confidence": 0.92,
+        "bbox": [
+          444,
+          383,
+          551,
+          24
+        ]
+      },
+      "employer": {
+        "value": "Nimbus Analytics Pvt Ltd",
+        "confidence": 0.95,
+        "bbox": [
+          445,
+          449,
+          298,
+          23
+        ]
+      },
+      "declared_monthly_income": {
+        "value": "86000",
+        "confidence": 0.96,
+        "bbox": [
+          445,
+          513,
+          123,
+          22
+        ]
+      },
+      "account_number": {
+        "value": "50100 2234 7781",
+        "confidence": 0.96,
+        "bbox": [
+          444,
+          578,
+          189,
+          19
+        ]
+      },
+      "loan_amount": {
+        "value": "1500000",
+        "confidence": 0.96,
+        "bbox": [
+          445,
+          643,
+          158,
+          22
+        ]
+      },
+      "application_date": {
+        "value": "05-09-2026",
+        "confidence": 0.96,
+        "bbox": [
+          444,
+          708,
+          126,
+          19
+        ]
+      }
+    },
+    "id": {
+      "full_name": {
+        "value": "Rohan Mehta",
+        "confidence": 0.95,
+        "bbox": [
+          201,
+          123,
+          137,
+          16
+        ]
+      },
+      "date_of_birth": {
+        "value": "14-03-1992",
+        "confidence": 0.96,
+        "bbox": [
+          202,
+          185,
+          109,
+          16
+        ]
+      },
+      "pan": {
+        "value": "AKMPM4821Q",
+        "confidence": 0.88,
+        "bbox": [
+          200,
+          247,
+          149,
+          17
+        ]
+      },
+      "id_issue_date": {
+        "value": "22-07-2015",
+        "confidence": 0.96,
+        "bbox": [
+          200,
+          309,
+          112,
+          16
+        ]
+      }
+    },
+    "address_proof": {
+      "full_name": {
+        "value": "Rohan Mehta",
+        "confidence": 0.95,
+        "bbox": [
+          445,
+          189,
+          154,
+          19
+        ]
+      },
+      "address": {
+        "value": "48 Camac Street, Kolkata, West Bengal 700017",
+        "confidence": 0.92,
+        "bbox": [
+          444,
+          259,
+          551,
+          24
+        ]
+      },
+      "bill_date": {
+        "value": "02-09-2026",
+        "confidence": 0.96,
+        "bbox": [
+          444,
+          472,
+          126,
+          19
+        ]
+      }
+    },
+    "salary_slip": {
+      "full_name": {
+        "value": "Rohan Mehta",
+        "confidence": 0.96,
+        "bbox": [
+          445,
+          212,
+          154,
+          19
+        ]
+      },
+      "pan": {
+        "value": "AKMPM4821Q",
+        "confidence": 0.83,
+        "bbox": [
+          444,
+          424,
+          168,
+          20
+        ]
+      },
+      "net_pay": {
+        "value": "86000",
+        "confidence": 0.96,
+        "bbox": [
+          445,
+          638,
+          123,
+          22
+        ]
+      },
+      "gross_earnings": {
+        "value": "104000",
+        "confidence": 0.95,
+        "bbox": [
+          445,
+          496,
+          137,
+          22
+        ]
+      },
+      "pay_date": {
+        "value": "31-08-2026",
+        "confidence": 0.96,
+        "bbox": [
+          444,
+          708,
+          126,
+          19
+        ]
+      },
+      "employer": {
+        "value": "Nimbus Analytics Pvt Ltd",
+        "confidence": 0.95,
+        "bbox": [
+          120,
+          76,
+          398,
+          31
+        ]
+      }
+    },
+    "bank_statement": {
+      "full_name": {
+        "value": "Rohan Mehta",
+        "confidence": 0.96,
+        "bbox": [
+          445,
+          119,
+          141,
+          18
+        ]
+      },
+      "account_number": {
+        "value": "50100 2234 7781",
+        "confidence": 0.96,
+        "bbox": [
+          444,
+          154,
+          173,
+          18
+        ]
+      },
+      "statement_period": {
+        "value": "01-08-2026 to 31-08-2026",
+        "confidence": 0.96,
+        "bbox": [
+          444,
+          190,
+          267,
+          18
+        ]
+      },
+      "closing_balance": {
+        "value": "179960",
+        "confidence": 0.96,
+        "bbox": [
+          1006,
+          596,
+          87,
+          22
+        ]
+      }
+    }
+  },
+  "findings": [],
+  "audit": [
+    {
+      "ts": "2026-11-09T22:24:36",
+      "stage": "ingest",
+      "message": "Discovered 5 documents in genuine"
+    },
+    {
+      "ts": "2026-11-09T22:24:37",
+      "stage": "extract",
+      "message": "Loan Application Form: classified as loan_application, extracted 9 fields"
+    },
+    {
+      "ts": "2026-11-09T22:24:38",
+      "stage": "extract",
+      "message": "PAN Identity Card: classified as pan_id, extracted 4 fields"
+    },
+    {
+      "ts": "2026-11-09T22:24:39",
+      "stage": "extract",
+      "message": "Electricity Bill (Address Proof): classified as address_proof, extracted 3 fields"
+    },
+    {
+      "ts": "2026-11-09T22:24:40",
+      "stage": "extract",
+      "message": "Salary Slip: classified as salary_slip, extracted 6 fields"
+    },
+    {
+      "ts": "2026-11-09T22:24:41",
+      "stage": "extract",
+      "message": "Bank Statement: classified as bank_statement, extracted 4 fields"
+    },
+    {
+      "ts": "2026-11-09T22:24:41",
+      "stage": "correlate",
+      "message": "Evidence graph: 16 entity nodes, 17 correlation edges, 0 cross-document contradiction(s)"
+    },
+    {
+      "ts": "2026-11-09T22:24:41",
+      "stage": "rank",
+      "message": "Total findings: 0"
+    }
+  ],
+  "correlations": [
+    {
+      "a": "application",
+      "b": "id",
+      "entities": [
+        "full_name",
+        "date_of_birth",
+        "pan"
+      ],
+      "conflicts": []
+    },
+    {
+      "a": "address_proof",
+      "b": "application",
+      "entities": [
+        "full_name",
+        "address"
+      ],
+      "conflicts": []
+    },
+    {
+      "a": "application",
+      "b": "salary_slip",
+      "entities": [
+        "full_name",
+        "pan",
+        "employer"
+      ],
+      "conflicts": []
+    },
+    {
+      "a": "application",
+      "b": "bank_statement",
+      "entities": [
+        "full_name",
+        "account_number"
+      ],
+      "conflicts": []
+    },
+    {
+      "a": "address_proof",
+      "b": "id",
+      "entities": [
+        "full_name"
+      ],
+      "conflicts": []
+    },
+    {
+      "a": "id",
+      "b": "salary_slip",
+      "entities": [
+        "full_name",
+        "pan"
+      ],
+      "conflicts": []
+    },
+    {
+      "a": "bank_statement",
+      "b": "id",
+      "entities": [
+        "full_name"
+      ],
+      "conflicts": []
+    },
+    {
+      "a": "address_proof",
+      "b": "salary_slip",
+      "entities": [
+        "full_name"
+      ],
+      "conflicts": []
+    },
+    {
+      "a": "address_proof",
+      "b": "bank_statement",
+      "entities": [
+        "full_name"
+      ],
+      "conflicts": []
+    },
+    {
+      "a": "bank_statement",
+      "b": "salary_slip",
+      "entities": [
+        "full_name"
+      ],
+      "conflicts": []
+    }
+  ],
+  "node_order": [
+    "application",
+    "id",
+    "bank_statement",
+    "salary_slip",
+    "address_proof"
+  ]
+}

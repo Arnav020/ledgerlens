@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>LedgerLens — Cross-Document Forensics</title>
+<meta name="description" content="Evidence-driven cross-document forensic investigation for financial document packets." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=4" />
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="mark"></span>
+    <span class="name">LedgerLens</span>
+  </div>
+  <nav class="topnav">
+    <a href="#console">Console</a>
+    <a href="https://github.com/Arnav020/ledgerlens" target="_blank">GitHub</a>
+    <span class="chip synthetic">SYNTHETIC DATA</span>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-grid">
+    <div class="hero-text">
+      <div class="eyebrow">DATAOPS HACKATHON 2026 · PS-2 · DOCUMENT FORENSICS</div>
+      <h1>Fraud hides<br><em>between the documents.</em></h1>
+      <p class="lede">LedgerLens reads a whole packet of financial documents, correlates it on an
+        evidence graph, and proves every finding by tracing it to the exact region of its source.</p>
+      <div class="hero-cta">
+        <a class="btn-clay" href="#console">Run the live investigation &nbsp;&darr;</a>
+        <a class="btn-ghost" href="https://github.com/Arnav020/ledgerlens" target="_blank">View the code</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hstat"><div class="n" style="color:var(--red)">8/8</div><div class="l">anomalies caught</div></div>
+        <div class="hstat"><div class="n" style="color:var(--green)">0</div><div class="l">false positives</div></div>
+        <div class="hstat"><div class="n" style="color:var(--slate)">16</div><div class="l">forensic checks</div></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-frame"><img src="assets/hero.png" alt="Forensic document investigation — documents linked by red threads under a magnifier"></div>
+      <div class="hero-badge">cross-document&nbsp;&ne;&nbsp;conflict</div>
+    </div>
+  </div>
+  <a class="scrolldown" href="#console" aria-label="Scroll to console">&#9662;</a>
+</section>
+
+<!-- CONSOLE -->
+<section class="console" id="console">
+  <div class="section-head">
+    <div><div class="eyebrow red">LIVE INVESTIGATION CONSOLE</div>
+      <h2 class="section-title">A real packet, investigated in seconds</h2></div>
+    <div class="seg" id="packetToggle">
+      <button data-packet="manipulated" class="active">Manipulated packet</button>
+      <button data-packet="genuine">Genuine packet</button>
+    </div>
+  </div>
+
+  <div class="verdict" id="verdict"></div>
+
+  <div class="workspace">
+    <aside class="findings-col">
+      <div class="col-head"><span class="label">FINDINGS</span><span class="count" id="findCount"></span></div>
+      <div class="findings-list" id="findingsList"></div>
+    </aside>
+    <div class="detail-col">
+      <nav class="tabs" id="tabs">
+        <button data-tab="evidence" class="active">Evidence</button>
+        <button data-tab="documents">Documents</button>
+        <button data-tab="graph">Evidence graph</button>
+        <button data-tab="audit">Audit trail</button>
+      </nav>
+      <div class="tab-body">
+        <div class="tabpane" id="pane-evidence"></div>
+        <div class="tabpane hidden" id="pane-documents"></div>
+        <div class="tabpane hidden" id="pane-graph"></div>
+        <div class="tabpane hidden" id="pane-audit"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="foot">
+  <div>LedgerLens · from extraction to investigation · all demonstration data is synthetic, no real PII.</div>
+  <div class="foot-links">
+    <a id="dossierLink" href="data/investigation_dossier.pdf" target="_blank">Download dossier (PDF)</a>
+    <a href="https://github.com/Arnav020/ledgerlens" target="_blank">github.com/Arnav020/ledgerlens</a>
+  </div>
+</footer>
+
+<script src="app.js?v=5"></script>
+</body>
+</html>

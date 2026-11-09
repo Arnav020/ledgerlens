@@ -17,3 +17,8 @@ samples/_preview_*.png
 *.log
 
 # Keep: dataset/, samples/sample_dossier.pdf, samples/sample_dossier.json
+
+# web export side-effects
+web/data/_evidence/
+web/node_modules/
+web/package*.json
